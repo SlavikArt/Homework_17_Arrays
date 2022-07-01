@@ -1,11 +1,5 @@
 ﻿#include <iostream>
 
-int random(int min, int max)
-{
-	int k = max - min + 1;
-	return rand() % k + min;
-}
-
 int main()
 {
 	const int rows = 5;
